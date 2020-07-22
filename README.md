@@ -9,3 +9,5 @@ I consider it to be successful. A game runs in a browser, where a user can eithe
 I also wanted to make graphics to something visual and as I enjoy pixel art - this is the style I chose to approach the task with.
 
 ## Example:
+
+![](https://github.com/Si-ja/DrinkSomeWater/blob/master/visualizations/visualization.gif "Game")
