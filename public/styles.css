@@ -1,0 +1,132 @@
+html {
+    overflow: hidden;
+  }
+
+  body {
+    font-family: 'Press Start 2P', cursive, monospace;
+    font-size: 20px;
+    background-color: black;
+  }
+
+  #mainheading {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #maindescription {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #counter {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  #multiplier {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  #bottle {
+    animation: rotation 4s infinite linear;
+  }
+
+  .bottle_img {
+    animation: scaling 4s infinite linear
+  }
+
+  @keyframes rotation {
+    50% {transform: rotate(15deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+  @-webkit-keyframes rotation {
+    50% {transform: rotate(15deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+  @-moz-keyframes rotation {
+    50% {transform: rotate(15deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+  @-ms-keyframes rotation {
+    50% {-webkit-transform: rotate(15deg);}
+    100% {-webkit-transform: rotate(0deg);}
+  }
+
+  @keyframes scaling {
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+  @-webkit-keyframes scaling {
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+  @-moz-keyframes scaling {
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+  @-ms-keyframes scaling {
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+  #upgrades_text {
+    color: white;
+    text-align: center;
+  }
+
+
+.upgrades_row {
+  display: flex;
+}
+
+.upgrades_columns {
+  flex: 33.3%;  
+  border-style: double;
+  color: white;
+  margin: 5em;
+  transition: transform .2s;
+}
+
+.upgrades_columns:hover {
+  transform: scale(1.05);
+}
+
+.upgrades_columns:active {
+  transform: scale(0.95);
+}
+
+.upgradesDescription {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.upgradePrice {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.upgradePresent {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
